@@ -12,20 +12,24 @@
 </head>
 <body>
     <header>
-        <h1>Curriculum Viteae</h1>                
-    </header>
-
-    <nav><ul class="indice">
-        <li><a href="#experiencia">Experiencia</a></li>       
-        <li><a href="#skills">Skills</a></li>
+        <h1>Jordan Salinas</h1>   
+         <nav><ul class="indice">
         <li><a href="#informacion">Información </a> </li>
+        <li><a href="#skills">Skills-Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>       
+        
+        
         
     </ul>
 
-        </nav>
+        </nav>            
+    </header>
+
+    
 <main> 
-    <section id="informacion">
-        
+    <nav id="informacion">
+
+    <section id="info" class="info">
             <h2> Informacion Personal</h2>     
         <ul>           
             <li>Nombre: Jordan Alexis Salinas Paredes</li>
@@ -33,7 +37,8 @@
             <li>Celular: 0958985160 </li>  
         </ul>    
     </section>
-    <section>
+
+    <section id="educacion" class="info">
         <h2>Educacion </h2>
         <ul>
             <li>
@@ -41,21 +46,10 @@
         <p>Ingenieria en Ciencias Computacionales</p>
         <p>2021-Actualidad</p>    
             </li>     
-        </ul>        
+        </ul>   
     </section>
-    <section id="experiencia">
-        <h2>Experiencia Laboral </h2>
-        <ul>
-            <li>
-            <p>DataFast SA</p>
-              <p>Guayaquil</p>
-        <p>Desarrollo de soluciones informatica</p>
-        <p>2023-Actualidad</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0023632941657!2d-79.89018109999999!3d-2.1527799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6da726eaefa9%3A0xe05122ae9ce16fb5!2sSpartan%20del%20Ecuador%20Matriz!5e0!3m2!1ses!2sec!4v1684784475795!5m2!1ses!2sec" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-            </li>     
-        </ul>        
-    </section>
-    <section>
+
+    <section id="idiomas" class="info">
         <h2>Idiomas</h2>
         <ul>
             <li>Español (Nativo)</li>
@@ -63,8 +57,21 @@
 
         </ul>        
     </section>
+    <section id="experiencia" class="info">
+        <h2>Experiencia Laboral </h2>
+        
+            <p>DataFast SA</p>
+              <p>Guayaquil</p>
+        <p>Desarrollo de soluciones informatica</p>
+        <p>2023-Actualidad</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0023632941657!2d-79.89018109999999!3d-2.1527799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6da726eaefa9%3A0xe05122ae9ce16fb5!2sSpartan%20del%20Ecuador%20Matriz!5e0!3m2!1ses!2sec!4v1684784475795!5m2!1ses!2sec" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           
+    </section>
+    </nav>
+
+    <nav id="skills-proyectos">
+        <h2 id="tskill">Skills</h2>
+
     <section id="skills">
-        <h2>Skills</h2>
         <h3>Lenguajes de programacion</h3>
         <ul>
             <li>Python</li>
@@ -72,14 +79,21 @@
             <li>C</li>
         </ul>
     </section>
+
+    <section id="so">
     <h3>Sistemas operativos</h3>
     <ul>
         <li>Windows</li>
         <li>Linux</li>
     </ul>
+         </section>
+
+     <section id="bdd">   
     <h3>Administración de base de datos</h3>
     <ul><li>MySql</li></ul>
+        </section> 
 
+        </nav>
 <section id="proyectos">
 <h2>Proyectos colaborativos</h2>
  <ul>
@@ -103,7 +117,14 @@
  </li>
  </ul>
 </section>
-<form>
+
+
+
+</main>
+
+<footer>
+    
+    <form id="contacto">
     <label>Contactame</label> <br>
     <label for="nombres">Nombres:</label> <input id="nombres" name="nombres"> <br>
     <label for="correo">Correo:</label> <input id="correo" name="correo"> <br>
@@ -113,10 +134,6 @@
     <button type="reset" name="reiniciar">Cancelar</button>
 
 </form>
-
-</main>
-
-<footer>
     <p>Copyright &copy; 2023</p>
 
 </footer>
