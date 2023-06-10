@@ -1,6 +1,68 @@
-h1{
-    color: red;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(54, 164, 157);
 }
-h2{
-    color: purple;
+.indice{
+    list-style: none;
+    padding: 0;
+    background: purple;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+ 
+
+}
+.indice li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    justify-content: right;
+
+}
+.indice li{
+    display: inline-block;
+    text-align: center;
+
+}
+.indice li a:hover{
+    background: red;
+}
+
+#proyectos ul li{
+    display: flex;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+
+#proyecto1{
+    width: 49%;
+}
+#img1{
+    width: 49%;
+}
+
+#proyecto2{
+    width: 49%;
+}
+#img2{
+    width: 100%;
+}
+#proyecto3{
+    width: 100%;
+}
+#img1{
+    width: 49%;
+}
+#proyecto4{
+    justify-content: center;
+    width: 100%;
+}
+#vid1{
+    width: 99%;
 }
